@@ -1,3 +1,9 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #323232;
+  --main-text-color: #999999;
+  --second-text-color: #ffffff;
+}
 body {
   font-family: Montserrat, sans-serif;
 }
@@ -13,9 +19,37 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
-  color: #ffffff;
+  color: var(--second-text-color);
 }
 
 .header {
   background-color: grey;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--second-text-color);
+  text-align: center;
+}
+.hero {
+  background-color: grey;
+}
+.hero-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: var(--main-title-color);
+}
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--second-text-color);
+  background: #4985ff;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  cursor: pointer;
 }
