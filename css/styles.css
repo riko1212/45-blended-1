@@ -129,8 +129,8 @@ ul {
 }
 
 .mobile-list {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     /* outline: 1px solid red; */
     margin-bottom: 55px;
 }
@@ -353,4 +353,20 @@ ul {
     font-size: 16px;
     line-height: 1.25;
     color: #4985ff;
+}
+
+.slick-next:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/stardarts-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+
+.slick-dots li button:before {
+    content: "🤪";
+    font-size: 16px;
 }
